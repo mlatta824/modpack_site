@@ -6,8 +6,10 @@ function App() {
 
   const [currentPage, setCurrentPage] = useState('home')
 
-  const forgeLogo = '/packs/curseforge.svg';
-  const minecraftLogo = '/packs/minecraft.svg';
+  const baseUrl = import.meta.env.BASE_URL || '/';
+
+  const forgeLogo = `${baseUrl}packs/curseforge.svg`;
+  const minecraftLogo = `${baseUrl}packs/minecraft.svg`;
 
   if (currentPage === 'packs') {
     return(
