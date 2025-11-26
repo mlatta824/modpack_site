@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 export default function PackList() {
 
-    const pack = '/packs/ild_mkii.zip';
+    const pack = '';
 
     return (
 
