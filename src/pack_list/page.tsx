@@ -2,7 +2,7 @@
 
 export default function PackList() {
 
-    const pack = '';
+    const pack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/ILDMKII.zip';
 
     return (
 
