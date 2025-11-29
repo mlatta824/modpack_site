@@ -2,20 +2,29 @@
 
 export default function PackList() {
 
-    const pack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/Critical.Mass-.Project.MDMA.Mk.II.zip';
+    const drugpack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/Critical.Mass-.Project.MDMA.Mk.II.zip';
+    const nukepack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/Scorched.Horizons.zip';
 
     return (
 
         <div className="pack-list-container">
             
             <h1>Modpack List</h1>
+            <h2>Server IP: </h2>
 
             <div className = "card">
-                <h2>Critical Mass: Project Overdose MK II</h2>
-                <p>Latest Version of Modpack</p>
+                <h2>Critical Mass: Project MDMA MK II</h2>
+                <p>CURRENT SERVER PACK</p>
 
+                <a href = {drugpack} download className = "download-link">
+                    <button>Download File</button>
+                </a>
+            </div>
 
-                <a href = {pack} download className = "download-link">
+            <div className = "card">
+                <h2>Scorched Horizons</h2>
+
+                <a href = {nukepack} download className = "download-link">
                     <button>Download File</button>
                 </a>
             </div>
