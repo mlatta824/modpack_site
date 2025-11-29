@@ -2,7 +2,7 @@
 
 export default function PackList() {
 
-    const pack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/Critical.Mass-.Project.Overdose.Mk.II.zip';
+    const pack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/Critical.Mass-.Project.MDMA.Mk.II.zip';
 
     return (
 
