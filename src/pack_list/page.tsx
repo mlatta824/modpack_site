@@ -2,7 +2,7 @@
 
 export default function PackList() {
 
-    const pack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/ILDMKII.zip';
+    const pack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/Critical.Mass-.Project.Overdose.Mk.II.zip';
 
     return (
 
@@ -11,7 +11,7 @@ export default function PackList() {
             <h1>Modpack List</h1>
 
             <div className = "card">
-                <h2>ILD MKII</h2>
+                <h2>Critical Mass: Project Overdose MK II</h2>
                 <p>Latest Version of Modpack</p>
 
 
