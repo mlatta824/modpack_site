@@ -12,7 +12,7 @@ export default function PackList() {
         <div className="pack-list-container">
             
             <h1>Modpack List</h1>
-            <h2>Server IP: </h2>
+            <h2>Server IP: 108.2.112.7:25565</h2>
 
             <div className = "card">
                 <h2>Critical Mass: Project MDMA MK II</h2>
