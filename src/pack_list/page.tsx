@@ -4,6 +4,7 @@ export default function PackList() {
 
     const drugpack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/Critical.Mass-.Project.MDMA.Mk.II.zip';
     const nukepack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/Scorched.Horizons.zip';
+    const cobblemonpack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/CobblemonColonies.zip';
 
     const serverpack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/critical-mass-server.zip';
 
@@ -17,6 +18,14 @@ export default function PackList() {
             <a href = {'https://discord.gg/cqjUuW6NQr'} download className = "discord-link">
                 <button>Discord Server</button>     
             </a>
+
+            <div className = "card">
+                <h2>Cobblemon Colonies</h2>
+
+                <a href = {cobblemonpack} download className = "download-link">
+                    <button>Download Modpack</button>
+                </a>
+            </div>
 
             <div className = "card">
                 <h2>Critical Mass: Project MDMA MK II</h2>
