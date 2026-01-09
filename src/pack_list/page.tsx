@@ -13,7 +13,7 @@ export default function PackList() {
         <div className="pack-list-container">
             
             <h1>Modpack List</h1>
-            <h2>Server IP: 108.2.112.7:25565</h2>
+            <h2>Server IP: Join The Discord.</h2>
             <h2>To gain access, display your username in our Discord!</h2>
             <a href = {'https://discord.gg/cqjUuW6NQr'} download className = "discord-link">
                 <button>Discord Server</button>     
