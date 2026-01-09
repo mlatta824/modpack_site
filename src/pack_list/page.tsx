@@ -21,6 +21,7 @@ export default function PackList() {
 
             <div className = "card">
                 <h2>Cobblemon Colonies</h2>
+                <p>CURRENT SERVER PACK</p>
 
                 <a href = {cobblemonpack} download className = "download-link">
                     <button>Download Modpack</button>
@@ -29,7 +30,6 @@ export default function PackList() {
 
             <div className = "card">
                 <h2>Critical Mass: Project MDMA MK II</h2>
-                <p>CURRENT SERVER PACK</p>
                 
                 <a href = {drugpack} download className = "download-link">
                     <button>Download Modpack</button>
