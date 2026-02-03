@@ -5,7 +5,7 @@ export default function PackList() {
     const drugpack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/Critical.Mass-.Project.MDMA.Mk.II.zip';
     const nukepack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/Scorched.Horizons.zip';
     const cobblemonpack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/CobblemonColonies.zip';
-    const rpgpack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/Cisco.s.Fantasy.Medieval.RPG.Tweaked.zip'
+    const rpgpack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/Cisco.s.Fantasy.Medieval.RPG.Tweaked-2F.Beta.zip'
 
     const serverpack = 'https://github.com/mlatta824/modpack_site/releases/download/Alpha/CARPG.Dragonfyre.V2F.Beta.Serv.zip';
 
